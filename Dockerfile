@@ -21,5 +21,3 @@ RUN apk add tzdata && \
 	mv composer.phar /usr/local/bin/composer && chmod +x /usr/local/bin/composer
 
 COPY conf/usr /usr
-
-CMD ["php" "-a"]
