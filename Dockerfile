@@ -22,4 +22,4 @@ RUN apk add tzdata && \
 
 COPY conf/usr /usr
 
-ENTRYPOINT ["php" "-a"]
+ENTRYPOINT ["php", "-a"]
