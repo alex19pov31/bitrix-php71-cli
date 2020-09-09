@@ -1,4 +1,4 @@
-FROM  php:7.1-fpm-alpine
+FROM  php:7.1-cli-alpine
 LABEL maintainer="alex19pov31@gmail.com"
 
 RUN apk add tzdata && \
